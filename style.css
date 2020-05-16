@@ -11,7 +11,6 @@ body {
 #navbar {
   position: fixed;
   top: 0;
-  right: 0; 
   width: 100%;
 }
 
@@ -42,18 +41,20 @@ a {
   font-size: 3em;
 
   box-sizing: border-box;
-color: #00ddd7;
-margin: 0;
-background:     linear-gradient(
-  rgba(0, 0, 0, 0.8), 
-  rgba(0, 0, 0, 0.8)),url(..//img/background.jpg);
-background-attachment: fixed;
-background-size: cover;
+  color: #00ddd7;
+  margin: 0;
+  background:     linear-gradient(
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8)),url(..//img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h2  {
   text-align: center;
   color:#00ddd7;
+  padding: 1.2em;
+  font-size: 2em;
 }
 
 #projects {
