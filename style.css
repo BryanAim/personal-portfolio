@@ -16,6 +16,7 @@ body {
 
 #navbar ul {
   display: flex;
+  justify-content: flex-end;
   background-color: #00ddd7;
   width: 100%;
   list-style: none;
@@ -25,6 +26,7 @@ body {
 
 navbar ul li {
   padding-right: 10px;
+  font-size: larger;
 }
 
 a {
@@ -43,7 +45,7 @@ a {
   box-sizing: border-box;
   color: #00ddd7;
   margin: 0;
-  background:     linear-gradient(
+  background: linear-gradient(
     rgba(0, 0, 0, 0.8), 
     rgba(0, 0, 0, 0.8)),url(..//img/background.jpg);
   background-attachment: fixed;
