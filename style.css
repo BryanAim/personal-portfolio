@@ -5,7 +5,7 @@
 
 body {
   background-color: #94999d;
-  font-family: Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 #navbar {
@@ -39,9 +39,16 @@ a {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-color: #646668;
-  color: white;
-  background-color: black;
+  font-size: 3em;
+
+  box-sizing: border-box;
+color: #00ddd7;
+margin: 0;
+background:     linear-gradient(
+  rgba(0, 0, 0, 0.8), 
+  rgba(0, 0, 0, 0.8)),url(..//img/background.jpg);
+background-attachment: fixed;
+background-size: cover;
 }
 
 h2  {
