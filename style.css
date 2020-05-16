@@ -20,8 +20,8 @@ body {
   background-color: #00ddd7;
   width: 100%;
   list-style: none;
-  height: 20px;
-  padding:2px;
+  height:2em;
+  padding-top:20px;
 }
 
 navbar ul li {
